@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.formInput{
+    margin-top: 3rem;
+    border: 0.1px solid rgb(202, 195, 195);
+    border-radius: 1rem;
+    padding: 5rem;
+}
+
+#searchAndResult{
+    border: 0.1px solid rgb(202, 195, 195);
+    margin-top: 2rem;
+    /* padding: 6rem; */
+    padding-top: 3rem;
+    padding-left: 5rem;
+    padding-bottom: 3rem;
+    padding-right: 5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+}
+
+#searchInput
+{
+    margin-bottom: 1rem;
+}
+
+.btn{
+    font-weight:bold;
+}
+
+#updateTaskBtn{
+display: none;
+}
+
+#paginations{
+    margin-top: 2rem;
+}
+#searchBar
+{
+    padding-right: 10%;
+}
+ .pageLimit
+ {
+    margin-bottom: 2rem;
+ }
+
+ 

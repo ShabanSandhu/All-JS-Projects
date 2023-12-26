@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.card {
+    width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.card-body {
+    margin-top: 20px;
+}
+
+.form-floating {
+    margin-bottom: 20px;
+}
+
+.form-floating label {
+    font-weight: bold;
+}
+
+.form-floating input {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    width: 100%;
+}
+
+.btn-primary {
+    width: 100%;
+    font-weight: bold;
+}
+
+/* home page styling */
+
+#HomePage{
+    display: none;
+}
+
+.navbar-brand{
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(0, 94, 255);
+}
+.navbar-brand:hover{
+    color: rgb(0, 34, 255);
+}
+.nav-item{
+    font-size:larger;
+    margin-left: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: rgb(0, 94, 255);
+}
+
+.nav-link:hover{
+    color: rgb(0, 34, 255);
+}
+
+.dropdown-item{
+    color: rgb(0, 94, 255);
+}
+
+.dropdown-item:hover{
+    color: rgb(0, 34, 255);
+}
+
+.HomePageBody
+{
+    text-align: center;
+    padding: 10rem;
+    color: rgb(0, 94, 255);
+    background-color: white;
+}
+/* end home page styling */
+
+#LogoutBtn{
+    font-weight: bold;
+}
+
+/* end */
+
+#SignupForm{
+    display: none;
+}
+
+#LoginForm{
+    display: none;
+}
+
+#OptionForgetPassword {
+    text-decoration:none;
+    font-weight: bold;
+    color: rgb(0, 94, 255);
+}
+
+#OptionForgetPassword:hover{
+    color: rgb(0, 34, 255);
+
+}
+
+#NewPasswordForm{
+    display: none;
+}
+
+img{
+    width: 400px;
+}

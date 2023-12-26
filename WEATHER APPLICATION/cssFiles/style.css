@@ -1,0 +1,111 @@
+
+
+/* new styling */
+
+body 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #f8f9fa;
+}
+
+
+.card 
+{
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+
+.card-header 
+{
+    text-align: center;
+}
+
+
+.card-header h2
+{
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.card-body 
+{
+    margin-top: 20px;
+}
+
+
+.ICN
+{
+    font-weight: bold;
+    font-size: x-large;
+}
+
+
+span
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+}
+
+
+#result
+{
+    display: none;
+}
+
+
+#result Img
+{
+    width: 250px;
+    margin-left: 5rem;
+    margin-bottom: 3rem;;
+}
+
+
+#result h3
+{
+    text-align: center;
+}
+
+
+#result #weatherTemprature,#weatherHumidity,#weatherDescription
+{
+    font-weight: lighter;
+}
+
+
+ #noData
+{
+    display: none;
+}
+
+
+#noData img
+{
+    width: 300px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+}
+
+#noData h3
+{
+    font-weight: bold;
+    margin-top: 4rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#clearImg{display: none;}
+#cloudImg{display: none;}
+#rainImg{display: none;}
+#snowImg{display: none;}
+
+
+/* end new styling */

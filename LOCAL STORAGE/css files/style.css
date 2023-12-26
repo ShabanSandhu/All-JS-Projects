@@ -1,0 +1,28 @@
+#col5{
+text-align: center;
+margin: auto;
+margin-top: 3rem;
+}
+.col-6{
+    text-align: center;
+    margin: auto; 
+    margin-top: 2rem;
+}
+.b{
+    border: 0.1px solid rgb(189, 171, 171);
+    margin-top: 1rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+.btn{
+    font-weight:bolder;
+    margin-top: 3px;
+}
+.b1{
+    border: 0.1px solid rgb(189, 171, 171);
+    margin-top: 1rem;
+    padding: 3rem;
+    border-radius: 10px;
+    margin-bottom: 3rem;
+}
+
